@@ -1,13 +1,13 @@
 .App {
-  text-align: center;
   margin: 15px 0;
+  text-align: center;
 }
 
 .app-conteiner {
+  background-color: rgb(19, 18, 36);
+  display: flex;
   height: 100vh;
   margin: auto;
-  display: flex;
-  background-color: rgb(19, 18, 36);
 }
 
 .App-logo {

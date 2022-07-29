@@ -20,13 +20,12 @@
   padding: 25px;
 }
 
-#inputEmail, #password {
-  padding: 5px;
-  margin: 10px;
-  width: 250px;
+.inputEmail , .password {
   border-radius: 5px;
   border: 1px solid rgb(89, 199, 103);
-  
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
 }
 
 .App {
@@ -34,12 +33,12 @@
   font-weight: 700;
 }
 
-#button-login {
-  padding: 5px;
-  margin: 10px;
-  width: 260px;
+.button-login {
   background-color: white;
   border-radius: 5px;
   font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  width: 260px;
 }
 
