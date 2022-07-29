@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import loginAction from '../redux/actions/loginAction';
+import './Login.css';
 
 class Login extends React.Component {
   constructor() {
@@ -58,10 +59,10 @@ class Login extends React.Component {
     const { inputEmail, password, buttonDisabled } = this.state;
 
     return (
-      <div>
-        <div>
+      <div className="login-conteiner">
+        <div className="App">TrybeWallet</div>
+        <div className="form-conteiner">
           <label htmlFor="inputEmail">
-            Email
             <input
               type="text"
               id="inputEmail"
@@ -69,10 +70,10 @@ class Login extends React.Component {
               name="inputEmail"
               value={ inputEmail }
               onChange={ this.handleChange }
+              placeholder="E-mail"
             />
           </label>
           <label htmlFor="password">
-            Senha
             <input
               type="password"
               id="password"
@@ -80,9 +81,10 @@ class Login extends React.Component {
               value={ password }
               onChange={ this.handleChange }
               name="password"
+              placeholder="Senha"
             />
           </label>
-          <button type="button" onClick={ this.login } disabled={ buttonDisabled }>
+          <button type="button" id="button-login" onClick={ this.login } disabled={ buttonDisabled }>
             Entrar
           </button>
         </div>

@@ -1,0 +1,45 @@
+.login-conteiner {
+  align-items: center;
+  background-color: rgb(89, 199, 103);
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 350px; 
+  justify-content: center; 
+  margin: auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.form-conteiner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+
+#inputEmail, #password {
+  padding: 5px;
+  margin: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid rgb(89, 199, 103);
+  
+}
+
+.App {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#button-login {
+  padding: 5px;
+  margin: 10px;
+  width: 260px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+

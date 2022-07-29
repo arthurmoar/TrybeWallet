@@ -1,0 +1,46 @@
+.header-field {
+  align-items: center;
+  background-color: rgb(89, 199, 103);
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: space-between;
+  width: 1300px;
+}
+
+.left-size-currency {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 400;
+  justify-content: flex-end;
+  margin: 5px;
+  max-height: 80px;
+}
+
+.currency {
+  display: flex;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: black;
+  justify-content: flex-end;
+}
+
+.money-spend {
+  margin-right: 5px;
+}
+
+.email-field {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: black;
+  padding: 8px;
+}
+
+.header-title {
+  margin-left: 10px;
+}
