@@ -84,7 +84,12 @@ class Login extends React.Component {
               placeholder="Senha"
             />
           </label>
-          <button type="button" id="button-login" onClick={ this.login } disabled={ buttonDisabled }>
+          <button
+            type="button"
+            id="button-login"
+            onClick={ this.login }
+            disabled={ buttonDisabled }
+          >
             Entrar
           </button>
         </div>
