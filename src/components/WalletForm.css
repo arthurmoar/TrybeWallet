@@ -1,0 +1,22 @@
+.form-wallet {
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1250px;
+  padding: 25px;
+}
+
+.title-form {
+  font-size: 14px;
+  margin: 5px;
+
+}
+
+.label-wallet-form {
+  display: flex;
+  flex-direction: row;
+}

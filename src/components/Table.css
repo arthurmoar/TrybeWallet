@@ -1,0 +1,32 @@
+.table-conteiner {
+  width: 1300px;
+}
+
+.table-heading {
+  background-color: black;
+  color: white;
+}
+
+.heading-column {
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: auto;
+  padding: 5px 30px;
+}
+
+.table-body {
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn-generic {
+  background-color: rgb(89, 199, 103);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 5px;
+}

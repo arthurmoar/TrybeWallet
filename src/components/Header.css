@@ -42,5 +42,7 @@
 }
 
 .header-title {
+  border-bottom: 3px solid white;
+  font-family: 'Times New Roman', Times, serif;
   margin-left: 10px;
 }

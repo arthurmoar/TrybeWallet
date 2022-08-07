@@ -21,24 +21,27 @@
 }
 
 .inputEmail , .password {
-  border: 1px solid rgb(89, 199, 103);
+  border: 1px solid rgb(82, 82, 82);
   border-radius: 5px;
   margin: 10px;
-  padding: 5px;
+  padding: 10px 5px;
   width: 250px;
 }
 
 .App {
+  border-bottom: 3px solid black;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: 700;
 }
 
 .button-login {
   background-color: white;
+  border: 1px solid rgb(82, 82, 82);
   border-radius: 5px;
   font-size: 15px;
   margin: 10px;
-  padding: 5px;
+  padding: 10px 5px;
   width: 260px;
 }
 
